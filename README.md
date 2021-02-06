@@ -27,3 +27,12 @@ Process:
 - For every scale, starting with the smallest (i.e. current one): - Run gradient ascent - Upscale image to the next scale - Reinject the detail that was lost at upscaling time
 - Stop when we are back to the original size. To obtain the detail lost during upscaling, we simply take the original image, shrink it down, upscale it, and compare the result to the (resized) original image.  
 
+### Problems that may arise  
+File "D:\Anaconda3\envs\TF2.1\lib\site-packages\tensorflow_core\python\keras\saving\hdf5_format.py", line 651, in load_weights_from_hdf5_group  
+    original_keras_version = f.attrs['keras_version'].decode('utf8')  
+AttributeError: 'str' object has no attribute 'decode'  
+
+### Solution  
+Uninstall the original h5py module and install version 2.10  
+> pip install h5py==2.10 -i https://pypi.tuna.tsinghua.edu.cn/simple/  
+
