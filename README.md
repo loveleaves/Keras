@@ -1,7 +1,7 @@
 # Keras  
 
 ## [Neural style transfer](./neural_style_transfer.py)  
-> Author: [fchollet](https://twitter.com/fchollet)
+> Author: [fchollet](https://twitter.com/fchollet)  
 > Description: Transfering the style of a reference image to target image using gradient descent.  
 
 ### Introduction  
@@ -13,7 +13,7 @@ This is achieved through the optimization of a loss function that has 3 componen
 
 
 ## [deep dream](./deep_dream.py)  
-> Author: [fchollet](https://twitter.com/fchollet)
+> Author: [fchollet](https://twitter.com/fchollet)  
 > Generating Deep Dreams with Keras.  
 
 ### Introduction  
