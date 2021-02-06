@@ -14,7 +14,7 @@ This is achieved through the optimization of a loss function that has 3 componen
 
 ## [deep dream](./deep_dream.py)  
 > Author: [fchollet](https://twitter.com/fchollet)  
-> Generating Deep Dreams with Keras.  
+> Description: Generating Deep Dreams with Keras.  
 
 ### Introduction  
 "Deep dream" is an image-filtering technique which consists of taking an image classification model, and running gradient ascent over an input image to try to maximize the activations of specific layers (and sometimes, specific units in specific layers) for this input. It produces hallucination-like visuals.  
